@@ -1,0 +1,58 @@
+# fast.ai
+Welcome to the start of your fast.ai journey! In today’s lesson you’ll set up your deep learning server, 
+and train your first image classification model (a convolutional neural network, or CNN), which will learn to
+distinguish dogs from cats nearly perfectly. If you need help at any time, head over to forums.fast.ai where over
+a thousand students are discussing the course and have provided lots of tips and tricks for you.
+
+Each lesson page includes a link to a forum topic that includes a hyperlinked timeline, links to further resources,
+and a discussion of the lesson. Nearly all the participants in the original in-person course said that they found 
+these resources very important for successfully completing the course. So be sure to make the most of them! And be
+sure to carefully read the Getting Started page to find out how this course is designed and how to get the most out
+of it.
+
+IMPORTANT NOTES!
+You need an Nvidia GPU to complete this course, and this video shows how to set up a GPU server on a system called
+Paperspace. Note that the setup steps have been simplified since this video was created. You no longer need to set up 
+the server from scratch. Instead, when prompted for a template, don’t choose ‘Ubuntu’ as shown in the video, but 
+instead choose ‘Public Templates’ and then ‘fast.ai’. Reshama Shaikh has kindly provided written step by step
+instructions on the whole process
+You are not expected to understand all the code in today’s lesson yet! Don’t worry, by the end of the course, 
+not only will every line be explained, but you’ll also be able to write the underlying network and training routines
+yourself from scratch. But for now, just focus on being able to run the code and understand the inputs and outputs
+to each step. We teach top-down, which means we first show how to create world-class models in practice,
+then we gradually drill down into the details of how the model works, and then build it back up again.
+LESSON NOTES
+We learn today how to classify dogs from cats. Rather than understanding the mathematical details of how this works,
+we start by learning the nuts and bolts of how to get the computer to complete the task, using ‘fine-tuning’, 
+perhaps the most important skill for any deep learning practitioner. In a later lesson we’ll learn about 
+how fine-tuning actually works “behind the scenes”.
+
+An important point discussed is how the data for this lesson needs to be structured. This is the most important step 
+for you to complete—if your data is not structured correctly you will not be able to train any models.
+
+
+识别猫和狗
+欢迎开始你的深度学习旅程！今天的课程你将会开始设置你的深度学习服务器，并开始训练你的第一个图像分类模型（一个卷积神经网络，CNN），
+将会学习从猫群中区分狗的完美方法。任何时候你需要帮助了，请到forums.fast.ai上寻求帮助，那里有上千的学员讨论着课程并且提供了
+很多好的建议还有学习路径给你。
+
+每个课程的页面都包含了一个连接到论坛主题的超连接，它包含了将要学习的资源以及对课程的探讨。几乎所有最开始参与到课程学习的人都说，
+他们发现这些资源对于成功的完成这些课程非常重要。所以请确保最大化的使用这些资源。并且确保认真仔细的的阅读 Getting Started页面，
+以便知道这门课设计的来龙去脉，并最大化的用好这些资源。
+
+重要的注意事项！
+你需要一个Nvidia GPU来完成这个课程，这个视频会展示怎么用Paperspace 在系统中设置一个GPU服务器,在这个视频被创建时，设置的步骤
+都是很相似的。当进一步操作模型时候，不要选择视频中的“Ubuntu”，取而代之选择”Public Templates”,然后是选择”fast.ai”.
+友善的Reshama Shaikn 在整个过程会提供一步一步的说明。
+
+你可能还不能理解今天课程中的代码！不要担心，在课程的最后，不仅有每一行的代码解释，而且你会有能力从编程中写出最基础的代码，
+并自己按部就班的练习。从现在开始，仅仅专注于有能力运行代码并理解每一步的输入输出的含义。我们会从头教到尾，
+意味着我们首次展现怎样在练习中创造世界教室，然后我们会逐步深入到模型运行的细节，然后再建立备份（build it back up again）
+
+课程注意事项！
+今天我们学习怎样从猫咪中分离出狗。比理解这件事中的数学原理更重要的是，我们学习让电脑完成工作的具体细节，使用”fine-tuning”，
+对于任何深度学习从业者而言这也许是最重要的技能。在稍后的课程中，我们将会学习 “fine-tuning”怎样工作。
+
+一个重要的讨论点是：为什么这节课的数据需要结构化。这是完成任务的关键步骤---------如果你的数据没有正确的结构化，你将不能训练任何模型。
+
+
